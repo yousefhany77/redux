@@ -1,0 +1,43 @@
+.counter {
+  font-size: 5em;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  color: lightseagreen;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-primary {
+  background-color: lightseagreen;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: black;
+}
+.btn-primary:hover {
+  background-color: seagreen;
+}
+
+a {
+  text-decoration: none;
+}

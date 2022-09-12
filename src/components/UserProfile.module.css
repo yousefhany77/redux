@@ -1,0 +1,22 @@
+.profile {
+  margin: 2rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: lightseagreen;
+}
+
+.post {
+  text-align: justify;
+  background-color: white;
+  color: black;
+}
+.controlPostsArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  height: 100%;
+}

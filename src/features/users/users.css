@@ -1,0 +1,21 @@
+.user-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  transition: all 250ms ease;
+  list-style: circle;
+}
+.user-list-items li a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.user-list-items li:hover {
+  list-style: disclosure-closed;
+  text-decoration: underline;
+  color: lightskyblue;
+}
+.user-list-items li a:hover {
+  color: lightskyblue;
+}
